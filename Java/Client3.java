@@ -10,7 +10,7 @@ public class Client3 {
         try (Socket socket = new Socket(SERVER_ADDRESS, PORT);
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
-            out.println("python programming");
+            out.println("JAVA");
             System.out.println("Client 3: String sent to server: python programming");
         } catch (IOException e) {
             e.printStackTrace();
